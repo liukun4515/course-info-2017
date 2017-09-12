@@ -40,7 +40,7 @@ Now that you have a basic understanding of Git, it's time to get started with Gi
 2. Make sure you are part of the GitHub Organization that we've created for the course: MIT-DB-Class. You should have received an invitation to join via email.
 
    You should now have a repository set up just for your lab solutions.
-   This should be called `homework-solns-2016-<athena username>` and located in the MIT-DB-Class organization.
+   This should be called `homework-solns-2017-<athena username>` and located in the MIT-DB-Class organization.
 
    This is what you'll set up in the next section to allow you to write your
    lab answers and submit them.
@@ -107,7 +107,7 @@ You should have Git installed and have joined the MIT-DB-Class organization from
 3. Lastly we need to give your repository a new `origin` since it is lacking one. Issue the following command, substituting your athena username:
 
    ```bash
-    $ git remote add origin git@github.com:MIT-DB-Class/homework-solns-2016-<athena-username>.git
+    $ git remote add origin git@github.com:MIT-DB-Class/homework-solns-2017-<athena-username>.git
    ```
 
    If you have an error that looks like the following:
@@ -125,7 +125,7 @@ You should have Git installed and have joined the MIT-DB-Class organization from
    This appears to happen to some depending on the version of Git they are using. To fix it, just issue the following command:
    
    ```bash
-   $ git remote set-url origin git@github.com:MIT-DB-Class/homework-solns-2016-<athena username>.git
+   $ git remote set-url origin git@github.com:MIT-DB-Class/homework-solns-2017-<athena username>.git
    ```
 
    This solution was found from [StackOverflow](http://stackoverflow.com/a/2432799) thanks to [Cassidy Williams](https://github.com/cassidoo).
@@ -137,8 +137,8 @@ You should have Git installed and have joined the MIT-DB-Class organization from
     $ git remote -v
         upstream git@github.com:MIT-DB-Class/simple-db-hw.git (fetch)
         upstream git@github.com:MIT-DB-Class/simple-db-hw.git (push)
-        origin git@github.com:MIT-DB-Class/homework-solns-2016-<athena username>.git (fetch)
-        origin git@github.com:MIT-DB-Class/homework-solns-2016-<athena username>.git (push)
+        origin git@github.com:MIT-DB-Class/homework-solns-2017-<athena username>.git (fetch)
+        origin git@github.com:MIT-DB-Class/homework-solns-2017-<athena username>.git (push)
    ```
 
 4. Let's test it out by doing a push of your master branch to GitHub by issuing the following:
@@ -156,7 +156,7 @@ You should have Git installed and have joined the MIT-DB-Class organization from
 	Writing objects: 100% (59/59), 420.46 KiB | 0 bytes/s, done.
 	Total 59 (delta 2), reused 59 (delta 2)
 	remote: Resolving deltas: 100% (2/2), done.
-	To git@github.com:MIT-DB-Class/homework-solns-2016-<athena username>.git
+	To git@github.com:MIT-DB-Class/homework-solns-2017-<athena username>.git
 	 * [new branch]      master -> master
 	Branch master set up to track remote branch master from origin.
    ```
@@ -221,7 +221,7 @@ You should see something like the following output:
  $ ./turnInLab1.sh 
 error: tag 'lab1submit' not found.
 remote: warning: Deleting a non-existent ref.
-To git@github.com:MIT-DB-Class/homework-solns-2016-<athena username>.git
+To git@github.com:MIT-DB-Class/homework-solns-2017-<athena username>.git
  - [deleted]         lab1submit
 [master 7a26701] Lab 1
  1 file changed, 0 insertions(+), 0 deletions(-)
@@ -232,7 +232,7 @@ Compressing objects: 100% (3/3), done.
 Writing objects: 100% (3/3), 353 bytes | 0 bytes/s, done.
 Total 3 (delta 1), reused 0 (delta 0)
 remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
-To git@github.com:MIT-DB-Class/homework-solns-2016-<athena username>.git
+To git@github.com:MIT-DB-Class/homework-solns-2017-<athena username>.git
    069856c..7a26701  master -> master
  * [new tag]         lab1submit -> lab1submit
 ```
@@ -273,7 +273,7 @@ If the above command worked for you, you can skip to item 6 below.  If not, subm
 6. The last thing that we strongly recommend you do is to go to the [MIT-DB-Class] organization page on GitHub to make sure that we can see your solutions.
 
 Just navigate to your repository and check that your latest commits are on GitHub. You should also be able to check 
-   `https://github.com/MIT-DB-Class/homework-solns-2016-<athena username>/tree/lab1`
+   `https://github.com/MIT-DB-Class/homework-solns-2017-<athena username>/tree/lab1`
 
 
 ## <a name="word-of-caution"></a> Word of Caution
