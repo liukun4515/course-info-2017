@@ -290,5 +290,3 @@ If at any point you need help with setting all this up, feel free to reach out t
 [resources]: https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github
 [ssh-key]: https://help.github.com/articles/generating-ssh-keys
 
-
-This page and infrastructure for this page was taken from https://github.com/MIT-DB-Class/course-info/blob/master/guides/course-setup.md and https://github.com/jdavis/github-plus-university
