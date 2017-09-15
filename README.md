@@ -37,8 +37,6 @@ Now that you have a basic understanding of Git, it's time to get started with Gi
 
 1. If you don't already have an account, sign up for one here: [https://github.com/join][join].
 
-2. Make sure you are part of the GitHub Organization that we've created for the course: MIT-DB-Class. You should have received an invitation to join via email.
-
    You should now have a repository set up just for your lab solutions.
    This should be called `homework-solns-2017-<athena username>` and located in the MIT-DB-Class organization.
 
