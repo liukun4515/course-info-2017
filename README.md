@@ -62,6 +62,8 @@ You should have Git installed from the previous section.
     $ git clone git@github.com:MIT-DB-Class/simple-db-hw.git
    ```
 
+   If you get an error doing clone, most likely the cause is that you just haven't finished setting up your GitHub account. You just need to [setup an SSH key][ssh-key] to allow pushing and pulling over SSH.
+
    This will make a complete replica of the lab repository locally. Now we are going to change it to point to your personal repository that was created for you in the previous section.
 
    Change your working path to your newly cloned repository:
