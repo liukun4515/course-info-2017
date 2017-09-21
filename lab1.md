@@ -273,8 +273,6 @@ In the rest of this Section, we describe each of the main components of SimpleDB
 
 <p>
 
-You may also wish to consult the [JavaDoc](http://db.csail.mit.edu/6.830/simpledb/doc) for SimpleDB.
-
 ###  2.1. The Database Class 
 
 The Database class provides access to a collection of static objects that are the global state of the database.  In particular, this includes methods to access the catalog (the list of all the tables in the database), the buffer pool (the collection of database file pages that are currently resident in memory), and the log file. You will not need to worry about the log file in this lab. We have implemented the Database class for you.  You should take a look at this file as you will need to access these objects.
