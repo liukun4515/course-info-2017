@@ -37,8 +37,6 @@ Now that you have a basic understanding of Git, it's time to get started with Gi
 
 1. If you don't already have an account, sign up for one here: [https://github.com/join][join].
 
-2. Make sure you are part of the GitHub Organization that we've created for the course: MIT-DB-Class. You should have received an invitation to join via email.
-
    You should now have a repository set up just for your lab solutions.
    This should be called `homework-solns-2017-<athena username>` and located in the MIT-DB-Class organization.
 
@@ -56,7 +54,7 @@ Detailed instructions can be found at [EGit User Guide](http://wiki.eclipse.org/
 
 ## Setting Up Git <a name="setting-up-git"></a>
 
-You should have Git installed and have joined the MIT-DB-Class organization from the previous section.
+You should have Git installed from the previous section.
 
 1. The first thing we have to do is to clone the current lab repository by issuing the following commands on the command line:
 
@@ -64,17 +62,9 @@ You should have Git installed and have joined the MIT-DB-Class organization from
     $ git clone git@github.com:MIT-DB-Class/simple-db-hw.git
    ```
 
+   If you get an error doing clone, most likely the cause is that you just haven't finished setting up your GitHub account. You just need to [setup an SSH key][ssh-key] to allow pushing and pulling over SSH.
+
    This will make a complete replica of the lab repository locally. Now we are going to change it to point to your personal repository that was created for you in the previous section.
-
-   If you get an error that looks like:
-
-   ```bash
-    Cloning into 'lab'...
-    Permission denied (publickey).
-    fatal: Could not read from remote repository.
-    ```
-
-    Most likely the cause is that you just haven't finished setting up your GitHub account. You just need to [setup an SSH key][ssh-key] to allow pushing and pulling over SSH.
 
    Change your working path to your newly cloned repository:
 
@@ -113,7 +103,7 @@ You should have Git installed and have joined the MIT-DB-Class organization from
    If you have an error that looks like the following:
 
    ```
-  Could not rename config section 'remote.[old name]' to 'remote.[new name]'
+   Could not rename config section 'remote.[old name]' to 'remote.[new name]'
    ```
 
    Or this error:
@@ -160,6 +150,8 @@ You should have Git installed and have joined the MIT-DB-Class organization from
 	 * [new branch]      master -> master
 	Branch master set up to track remote branch master from origin.
    ```
+
+   If you get an error doing push, most likely the cause is that you just haven't finished setting up your GitHub account. You just need to [setup an SSH key][ssh-key] to allow pushing and pulling over SSH.
 
 5. That last command was a bit special and only needs to be run the first time to setup the remote tracking branches. Now we should be able to just run `git push` without the arguments. Try it and you should get the following:
 
