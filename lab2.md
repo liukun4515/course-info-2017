@@ -1,7 +1,7 @@
 # 6.830 Lab 2: SimpleDB Operators
 
-**Assigned: Monday, September 26, 2016**<br>
-**Due: Wednesday, October 5, 2016 11:59 PM EDT**
+**Assigned: Monday, September 25, 2017**<br>
+**Due: Wednesday, October 4, 2017 11:59 PM EDT**
 
 
 <!--
