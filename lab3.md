@@ -10,8 +10,8 @@ The main tasks include implementing a selectivity estimation framework
 and a cost-based optimizer. You have freedom as to exactly what you
 implement, but we recommend using something similar to the Selinger
 cost-based optimizer discussed in class (see <a
- href="http://db.csail.mit.edu/6.830/lectures/selinger.pdf">these
-slides</a> from a previous offering of the course).
+ href="http://db.csail.mit.edu/6.830/lectures/lec9-notes.pdf">lec 9</a> and 
+ <a href="http://db.csail.mit.edu/6.830/lectures/lec10-notes.pdf">lec 10</a> notes).
 
 
 
