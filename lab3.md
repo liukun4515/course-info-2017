@@ -428,8 +428,8 @@ implement the Selinger optimizer.  For these methods, joins are
 expressed as a list of join nodes (e.g., predicates over two tables)
 as opposed to a list of relations to join as described in class.
 
-Translating the algorithm given in <a href="http://db.csail.mit.edu/6.830/lectures/selinger.pdf">these
-slides</a> to the join node list form mentioned above, an outline in pseudocode would be:
+Translating the algorithm given in <a
+ href="http://db.csail.mit.edu/6.830/lectures/lec9-notes.pdf">lec 9</a> to the join node list form mentioned above, an outline in pseudocode would be:
 ```
 1. j = set of join nodes
 2. for (i in 1...|j|):
