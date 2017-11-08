@@ -596,7 +596,7 @@ If the above command worked for you, you can skip to item 6 below.  If not, subm
 
    Just navigate to your repository and check that your latest commits are on
    GitHub. You should also be able to check 
-   `https://github.com/MIT-DB-Class/homework-solns-2016-<athena username>/tree/lab4submit`
+   `https://github.com/MIT-DB-Class/homework-solns-2017-<mid id>/tree/lab4submit`
 
 
 #### <a name="word-of-caution"></a> Word of Caution
