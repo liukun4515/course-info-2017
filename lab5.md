@@ -462,21 +462,7 @@ simple-db-hw that commits your changes, deletes any prior tag for the current
 lab, tags the current commit, and pushes the tag to GitHub.  If you are using
 Linux or Mac OSX, you should be able to run the following:
 
-   ```bash $ ./turnInLab5.sh ``` You should see something like the following
-   output:
-
- ```bash $ ./turnInLab5.sh error: tag 'lab5submit' not found. remote: warning:
- Deleting a non-existent ref. To
- git@github.com:MIT-DB-Class/homework-solns-2016-<athena username>.git
- - [deleted]         lab1submit [master 7a26701] Lab 5 1 file changed, 0
-   insertions(+), 0 deletions(-) create mode 100644 aaa Counting objects: 3,
-   done. Delta compression using up to 4 threads. Compressing objects: 100%
-   (3/3), done. Writing objects: 100% (3/3), 353 bytes | 0 bytes/s, done. Total
-   3 (delta 1), reused 0 (delta 0) remote: Resolving deltas: 100% (1/1),
-   completed with 1 local objects. To
-   git@github.com:MIT-DB-Class/homework-solns-2016-<athena username>.git
-   069856c..7a26701  master -> master
- * [new tag]         lab5submit -> lab5submit ```
+   ```bash $ ./turnInLab5.sh ``` 
 
 
 If the above command worked for you, you can skip to item 6 below.  If not,
@@ -508,7 +494,7 @@ solutions.
 
    Just navigate to your repository and check that your latest commits are on
    GitHub. You should also be able to check
-   `https://github.com/MIT-DB-Class/homework-solns-2016-<athena
+   `https://github.com/MIT-DB-Class/homework-solns-2017-<athena
    username>/tree/lab5submit`
 	   
 	   
@@ -522,7 +508,7 @@ strongly, **strongly** suggest that you check GitHub to be sure that what you
 want us to see matches up with what you expect.
 
 
-<a name="bugs"></a> ### 7.3. Submitting a bug 
+### 7.3. Submitting a bug 
 
 SimpleDB is a relatively complex piece of code. It is very possible you are
 going to find bugs, inconsistencies, and bad, outdated, or incorrect
@@ -549,7 +535,7 @@ please try to include:
 You can also post on the class page on Piazza if you feel you have run into a
 bug.
 
-<a name="grading"></a> ### 7.4 Grading 
+#### 7.4 Grading 
 
 50% of your grade will be based on whether or not your code passes the system
 test suite we will run over it. These tests will be a superset of the tests we
@@ -567,8 +553,13 @@ be careful when changing APIs and make sure that any changes you make are
 backwards compatible. In other words, we will pull your repo, replace the files
 mentioned above, compile it, and then grade it. It will look roughly like this:
 
-``` $ git pull [replace build.xml, HeapFileEncoder.java, BTreeFileEncoder.java,
-BTreeChecker.java and test] $ ant test $ ant systemtest [additional tests] ```
+``` 
+$ git pull 
+[replace build.xml, HeapFileEncoder.java, BTreeFileEncoder.java, BTreeChecker.java and test] 
+$ ant test 
+$ ant systemtest 
+[additional tests] 
+```
 
 If any of these commands fail, we'll be unhappy, and, therefore, so will your
 grade.
